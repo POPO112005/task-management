@@ -42,7 +42,8 @@ export default function Home() {
         <Spinner />
       ) : (
         todos.length > 0 && (
-          <ul className="bg-gray-200 rounded-md shadow-sm p-4 text-gray-900 md:w-full w-[400px]">
+          <div className=" justify-center sm:w-full ">
+          <ul className="bg-gray-200 rounded-md shadow-sm p-4 text-gray-900 ">
             {todos.map((todo, i) => (
               <Todoitem
                 key={i}
@@ -53,6 +54,7 @@ export default function Home() {
               />
             ))}
           </ul>
+          </div>
         )
       )}
     </>
