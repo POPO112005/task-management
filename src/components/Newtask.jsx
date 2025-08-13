@@ -26,13 +26,13 @@ export default function Newtask({ addtask, theme }) {
         >
           Add New Task
         </label>
-      </div>
+      </div> 
       
-      <div className="flex gap-x-2 bg-white rounded-md shadow-sm p-2 pl-3 mt-2 text-gray-900 md:w-full w-[400px]">
+      <div className="flex  gap-x-2 bg-red-500 md:bg-white rounded-md shadow-sm p-2 pl-3 mt-2 text-gray-900 md:flex  md:w-full w-[400px]">
         <input
           type="text"
           id="title"
-          className="focus:outline-none md:w-full w-[400px]"
+          className="focus:outline-none md:w-full w-[400px] "
           maxLength="30"
           placeholder="Type something here..."
           autoFocus
