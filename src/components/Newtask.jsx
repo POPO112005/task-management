@@ -32,7 +32,7 @@ export default function Newtask({ addtask, theme }) {
         <input
           type="text"
           id="title"
-          className="focus:outline-none md:w-full w-[400px] "
+          className="focus:outline-none md:w-full w-[400px]"
           maxLength="30"
           placeholder="Type something here..."
           autoFocus
@@ -43,7 +43,7 @@ export default function Newtask({ addtask, theme }) {
         />
         <button
           type="submit"
-          className=" px-3 py-2 rounded font-semibold bg-blue-500 text-white hover:bg-blue-600 w-40"
+          className="px-3 py-2 rounded font-semibold bg-blue-500 text-white hover:bg-blue-600 w-40"
         >
           + Newtask
         </button>
