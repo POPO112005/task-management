@@ -17,7 +17,7 @@ export default function Newtask({ addtask, theme }) {
   };
   return (
     <form ref={form} onSubmit={submitform}>
-      <div className={`text-lg mb-2 ${
+      <div className={`text-lg mb-2  ${
             theme === "dark" ? "text-white" : "text-gray-500"
           }`}>
         <label
@@ -28,11 +28,11 @@ export default function Newtask({ addtask, theme }) {
         </label>
       </div>
       
-      <div className="flex gap-x-2 bg-white rounded-md shadow-sm p-2 pl-3 mt-2 text-gray-900">
+      <div className="flex gap-x-2 bg-white rounded-md shadow-sm p-2 pl-3 mt-2 text-gray-900 md:w-full w-[400px]">
         <input
           type="text"
           id="title"
-          className="focus:outline-none w-full"
+          className="focus:outline-none md:w-full w-[400px]"
           maxLength="30"
           placeholder="Type something here..."
           autoFocus

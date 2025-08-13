@@ -1,5 +1,3 @@
-import logo from "../assets/react.svg";
-import { Link, NavLink } from "react-router-dom";
 import { MdOutlineDarkMode,MdOutlineLightMode } from "react-icons/md";
 export default function Navbar({ theme, setTheme }) {
   const activelink = ({ isActive }) =>
